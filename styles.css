@@ -4,6 +4,7 @@ body {
 }
 
 h1 {
+  max-width: 80%;
   width: 600px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
@@ -12,11 +13,13 @@ h1 {
 
 h2 {
   font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  margin: 5%;
 }
 
 h3 {
   text-align: left;
-  margin: 0 0 0 17%;
+  margin: 0 0 0 14%;
   font-family: 'Open Sans', sans-serif;
   left: 15%;
   width: auto;
@@ -28,6 +31,7 @@ td {
 }
 
 .top-container {
+  max-width: 100%;
   text-align: left;
   padding: 11px 0;
   top: 0;
@@ -36,18 +40,8 @@ td {
   position: fixed;
 }
 
-.scroll {
-  width: 80px;
-  height: 60px;
-  position: absolute;
-  top: 470px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .middle-container {
+  max-width: 100%;
   padding: 16% 0;
   background-image: url("bg-image1.jpg");
   background-position: center;
@@ -55,8 +49,8 @@ td {
 }
 
 .bottom-container {
+  max-width: 100%;
   margin: 30px auto;
-  border-spacing: 50px;
 }
 
 .white_space {
@@ -66,7 +60,7 @@ td {
 /* Button */
 .Button {
   top: 6px;
-  right: 18%;
+  right: 16%;
   position: fixed;
   background-color: #40424E;
   border-radius: 8px;
